@@ -80,35 +80,36 @@ App.jsx-ში არესბული კოდის მიხედვით
 14.
 
 Question: "რა არის საწყისი მნიშვნელობა popupTitle state-ის?"
-Answer:
+Answer:  ცარიელი სტრინგი - ""
 -----------
 
 15.
 
 Question: "რას აკეთებს togglePopup ფუნქცია?"
-Answer:
+Answer: ამოწმებს isPopupVisible წინა მნიშვნელობას და აბრუნებს საწინაღმდეგოს და თუ isPopupVisible
+არის true popupTitle - ს და popupMessage აძლევს ცარიელი სტრინგის მნიშვნელობას
 -----------
 
 16.
 
 Question: "რას აკეთებს handleTitleChange ფუნქცია?"
-Answer:
+Answer: იღებს არგუმენტს ამ შემთხვევაში ინფუთის ვალიუს და ათარგეთებს setPopupTitle - ში
 -----------
 
 17.
 
 Question: "რას აკეთებს handleMessageChange ფუნქცია?"
-Answer:
+Answer: იღებს არგუმენტს ამ შემთხვევაში ინფუთის ვალიუს და ათარგეთებს setPopupMessage - ში
 -----------
 
 18.
 
 Question: `{isPopupVisible ? 'Hide Popup' : 'Show Popup'}` რას აკეთებს ეს კონკრეტული ბრძანება?
-Answer:
+Answer: isPopupVisible თუ არის true ანიჭებს  Hide Popup თუ არადა  Show Popup
 -----------
 
 19.
 
 Question: `{isPopupVisible && (code)}` რისთვის გამოიყენება `&&` სიმბოლო?
-Answer:
+Answer: ამოწმებს არის თუ არა true თუ არის გამოიტანს კოდის ნაწილს თუ არადა დატვებს ცარიელს
 -----------
